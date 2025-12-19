@@ -12,3 +12,8 @@ output "web_vm_publicip" {
   description = "this will be the ip address of the vm"
   value = azurerm_public_ip.web_vm_publicip.ip_address
 }
+
+output "web_vm_name" {
+  description = "web machne name"
+  value = azurerm_linux_virtual_machine.web_vm
+}
