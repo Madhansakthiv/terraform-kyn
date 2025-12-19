@@ -1,5 +1,5 @@
 resource "azurerm_linux_virtual_machine" "web_vm" {
-  name                = "web-machine"
+  name                = "web-MADHAN"
   location            = azurerm_resource_group.rg-kyn.location
   resource_group_name = azurerm_resource_group.rg-kyn.name
   size                = var.vm_instance_size["development"]
